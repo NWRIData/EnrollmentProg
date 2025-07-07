@@ -2,6 +2,10 @@ import pandas as pd
 import mysql.connector
 from datetime import date
 
+import os
+
+
+
 # Connect to the database
 conn = mysql.connector.connect(
     host=os.environ['DB_HOST'],
